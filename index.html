@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/picturefill.min.js"></script>
+    
+    <title>Isabeau Kisler, Front-end Web Developer</title>
+  </head>
+  <body>
+    <div class="container-fluid container">
+
+      <!-- Header -->
+      <header class="row">
+        <div class="col-md-3 col-xs-3 headshot-container">
+          <img class="headshot" src="images/headshot.jpg" alt="Photo of Isabeau">
+        </div>
+        <div class="col-md-9 col-xs-9 text-right text-uppercase title-container">
+          <h1 class="title-name">Isabeau Kisler</h1>
+          <h2 class="title-subtitle">Front-end Web Dev</h2>
+
+          <!-- Social Media Buttons -->
+          <a href="https://www.linkedin.com/pub/isabeau-kisler/64/647/308" target="_blank"><span class="fontawesome-linkedin-sign"></span></a>
+          <a href="https://www.facebook.com/profile.php?id=100008663403077" target="_blank"><span class="fontawesome-facebook-sign"></span></a>
+          <a href="https://github.com/ikisler" target="_blank"><span class="fontawesome-github-sign"></span></a>
+
+        </div>
+      </header>
+
+      <!-- Body Content -->
+      <div class="row">
+        <!-- Hero Image -->
+        <div class="col-md-12 hero">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/peaches_large_1x.jpg 1x, images/peaches_large_2x.jpg 2x">
+            <source media="(min-width:600px)" srcset="images/peaches_med.jpg">
+            <img class="img-responsive hero-img" src="images/peaches_small.jpg" alt="Image of peaches">
+          </picture>
+          <a href="mailto:ikisler@csumb.edu" target="_blank"><div class="contact-button">Contact Me ▶</div></a>
+        </div>
+      </div>
+
+      <!-- Featured Work -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title-featured">Featured Work &#127807;</h2>
+        </div>
+      </div>
+      <div class="row featured">
+        <div class="col-md-4">
+          <img src="http://placehold.it/250x150" alt="Neighborhood Map screenshot" data-toggle="modal" data-target="#modal-neighborhood-map">
+          <h3>Neighborhood Map</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img src="http://placehold.it/250x150" alt="Classic Arcade Game screenshot" data-toggle="modal" data-target="#modal-classic-arcade-game">
+          <h3>Classic Arcade Game</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img src="http://placehold.it/250x150" alt="Interactive Resume screenshot" data-toggle="modal" data-target="#modal-interactive-resume">
+          <h3>Interactive Resume</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Project Info Modals -->
+    <div class="modal fade" id="modal-interactive-resume" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Interactive Resume</h2>
+          </div>
+          <div class="modal-body">
+            <img src="http://placehold.it/250x150" alt="Interactive Resume screenshot">
+            <h4>For this project, I expanded my knowledge of Javascript and JQuery to do some awesome things.</h4>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-default modal-close" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-classic-arcade-game" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Classic Arcade Game</h2>
+          </div>
+          <div class="modal-body">
+            <img src="http://placehold.it/250x150" alt="Classic Arcade Game screenshot">
+            <h4>For this project, I expanded my knowledge of Javascript to do some awesome things.</h4>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-default modal-close" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-neighborhood-map" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Neighborhood Map</h2>
+          </div>
+          <div class="modal-body">
+            <img src="http://placehold.it/250x150" alt="Neighborhood Map screenshot">
+            <h4>For this project, I expanded my knowledge of Javascript to do some awesome things.</h4>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-default modal-close" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

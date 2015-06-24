@@ -1,0 +1,108 @@
+@import url("http://fonts.googleapis.com/css?family=Noto+Sans");
+
+/*** Fontawesome Icons ***/
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+.fontawesome-linkedin-sign:before,
+.fontawesome-facebook-sign:before,
+.fontawesome-github-sign:before {
+	display: inline-block;
+	font: 2em "FontAwesome", sans-serif;
+	color: #5d3204;
+	padding-left: 10px;
+}
+
+/*** Header Section ***/
+header {
+	color: #5d3204;
+	padding: 1em 0;
+	border-bottom: 2px solid #629c39;
+}
+
+.title-name {
+	font-size: 3.5em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.title-subtitle {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.headshot {
+	max-width: 120px;
+	height: auto;
+}
+
+/*** Main Body Section ***/
+body {
+	background-color: #bbe39e;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.hero-img {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+.hero {
+	position: relative;
+}
+
+.contact-button {
+	position: absolute;
+	right: 15px;
+	bottom: 60px;
+	color: #fff;
+	font-size: 2em;
+	background-color: #629c39;
+	width: 210px;
+	height: 60px;
+	padding: 8px 15px 8px 15px;
+	z-index: 10;
+}
+
+.title-featured {
+	color: #40185b;
+}
+
+.featured {
+	color: #40185b;
+	text-align: center;
+}
+
+/*** Project Info Modals ***/
+.modal-body,
+.modal-footer {
+	background: #bbe39e;
+}
+
+.modal-header {
+	background: #629c39;
+	color: #fff;
+	font-size: 2em;
+	padding: 0px 10px;
+}
+
+.modal-close {
+	color: #fff;
+	background: #629c39;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+.modal-close:hover {
+	color: #fff;
+	background: #5d3204;
+	text-decoration: none;
+}
+
+/*** Debugging Code ***/
+/* For when I break things :P */
+/* * {
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+}*/
