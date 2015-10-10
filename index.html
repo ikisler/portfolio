@@ -18,7 +18,8 @@
       <!-- Header -->
       <header class="row">
         <div class="col-md-3 col-xs-3 headshot-container">
-          <img class="headshot" src="images/headshot.jpg" alt="Photo of Isabeau">
+          <img class="headshot" src="images/peach03.png" alt="Peach logo">
+          <!--<img class="headshot" src="images/headshot.jpg" alt="Photo of Isabeau"> -->
         </div>
         <div class="col-md-9 col-xs-9 text-right text-uppercase title-container">
           <h1 class="title-name">Isabeau Kisler</h1>
@@ -52,35 +53,59 @@
         </div>
       </div>
       <div class="row featured">
-        <div class="col-md-4">
-          <img src="http://placehold.it/250x150" alt="Neighborhood Map screenshot" data-toggle="modal" data-target="#modal-neighborhood-map">
+        <div class="col-md-6">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/neighborhoodMapScreenshot560x275.jpg">
+            <img class="img-responsive" src="images/neighborhoodMapScreenshot400x195.jpg" alt="Neighborhood Map screenshot" data-toggle="modal" data-target="#modal-neighborhood-map">
+          </picture>
           <h3>Neighborhood Map</h3>
-          <p><a href="http://github.com">Link to project</a></p>
+          <p><a href="http://ikisler.github.io/neighborhood-map/">Live Page</a></p>
+          <p><a href="https://github.com/ikisler/neighborhood-map">Github Repo</a></p>
         </div>
-        <div class="col-md-4">
-          <img src="http://placehold.it/250x150" alt="Classic Arcade Game screenshot" data-toggle="modal" data-target="#modal-classic-arcade-game">
+        <div class="col-md-6">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/arcadeGameScreenshot560x275.jpg">
+            <img class="img-responsive" src="images/arcadeGameScreenshot400x195.jpg" alt="Classic Arcade Game screenshot" data-toggle="modal" data-target="#modal-classic-arcade-game">
+          </picture>
           <h3>Classic Arcade Game</h3>
-          <p><a href="http://github.com">Link to project</a></p>
+          <p><a href="http://ikisler.github.io/frogger-clone-arcade-game/">Live Page</a></p>
+          <p><a href="https://github.com/ikisler/frogger-clone-arcade-game">Github Repo</a></p>
         </div>
-        <div class="col-md-4">
-          <img src="http://placehold.it/250x150" alt="Interactive Resume screenshot" data-toggle="modal" data-target="#modal-interactive-resume">
+      </div>
+      <div class="row featured">
+        <div class="col-md-6">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/calorieTrackerScreenshot560x275.jpg">
+            <img class="img-responsive" src="images/calorieTrackerScreenshot400x195.jpg" alt="Calorie Tracker screenshot" data-toggle="modal" data-target="#modal-calorie-tracker-game">
+          </picture>
+          <h3>Calorie Tracker</h3>
+          <p><a href="http://ikisler.github.io/healthtracker/">Live Page</a></p>
+          <p><a href="https://github.com/ikisler/healthtracker">Github Repo</a></p>
+        </div>
+        <div class="col-md-6">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/newResumeScreenshot560x275.jpg">
+            <img class="img-responsive" src="images/newResumeScreenshot400x195.jpg" alt="Interactive Resume screenshot" data-toggle="modal" data-target="#modal-interactive-resume">
+          </picture>
           <h3>Interactive Resume</h3>
-          <p><a href="http://github.com">Link to project</a></p>
+          <p><a href="http://ikisler.github.io/dynamic-resume/" target="_blank">Live Page</a></p>
+          <p><a href="https://github.com/ikisler/dynamic-resume">Github Repo</a></p>
         </div>
       </div>
     </div>
 
 
     <!-- Project Info Modals -->
-    <div class="modal fade" id="modal-interactive-resume" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="modal-neighborhood-map" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h2 class="modal-title">Interactive Resume</h2>
+            <h2 class="modal-title">Neighborhood Map</h2>
           </div>
           <div class="modal-body">
-            <img src="http://placehold.it/250x150" alt="Interactive Resume screenshot">
-            <h4>For this project, I expanded my knowledge of Javascript and JQuery to do some awesome things.</h4>
+            <img src="images/neighborhoodMapScreenshot560x275.jpg" alt="Neighborhood Map screenshot">
+              <p class="modal-description">Shows a searchable list of locations of interest in the San Jose, CA area.  Project created for Udacity's Front-End Nano-Degree program using Knockout.js, jQuery, Google Maps API and the Wikipedia API.</p>
+            </h4>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-default modal-close" data-dismiss="modal">Close</a>
@@ -96,8 +121,8 @@
             <h2 class="modal-title">Classic Arcade Game</h2>
           </div>
           <div class="modal-body">
-            <img src="http://placehold.it/250x150" alt="Classic Arcade Game screenshot">
-            <h4>For this project, I expanded my knowledge of Javascript to do some awesome things.</h4>
+            <img src="images/arcadeGameScreenshot400x195.jpg" alt="Classic Arcade Game screenshot">
+            <p class="modal-description">A clone of the game Frogger.  Project created for Udacity's Front-End Nano-Degree program using HTML5 Canvas, Javascript, and Udacity's game engine.</p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-default modal-close" data-dismiss="modal">Close</a>
@@ -106,15 +131,15 @@
       </div>
     </div>
 
-    <div class="modal fade" id="modal-neighborhood-map" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="modal-calorie-tracker-game" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h2 class="modal-title">Neighborhood Map</h2>
+            <h2 class="modal-title">Calorie Tracker</h2>
           </div>
           <div class="modal-body">
-            <img src="http://placehold.it/250x150" alt="Neighborhood Map screenshot">
-            <h4>For this project, I expanded my knowledge of Javascript to do some awesome things.</h4>
+            <img src="images/calorieTrackerScreenshot400x195.jpg" alt="Classic Arcade Game screenshot">
+            <p class="modal-description">Application allows user to create a list of food items, tracking total calories.  Project created for Udacity's Front-End Nano-Degree using Backbone.js, jQuery, and Nutritionix API.</p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-default modal-close" data-dismiss="modal">Close</a>
@@ -122,5 +147,26 @@
         </div>
       </div>
     </div>
+
+    <div class="modal fade" id="modal-interactive-resume" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Interactive Resume</h2>
+          </div>
+          <div class="modal-body">
+            <img src="images/newResumeScreenshot400x195.jpg" alt="Interactive Resume screenshot">
+            <p class="modal-description">Resume project created for Udacity's Front-End Nano-Degree using jQuery.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-default modal-close" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
   </body>
 </html>

@@ -5,6 +5,12 @@
 	}
 }
 
+@media screen and (max-width: 992px) {
+	.featured img {
+		margin: 0 auto;
+	}
+}
+
 @media screen and (max-width: 600px) {	
 	.headshot-container {
 		width: 100%;

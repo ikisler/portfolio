@@ -71,6 +71,21 @@ body {
 .featured {
 	color: #40185b;
 	text-align: center;
+	margin-bottom: 10px;
+}
+
+.featured img {
+	border: 1px solid #40185b;
+	cursor: pointer;
+}
+
+p {
+	margin-bottom: 0;
+	font-size: 1.2em;
+}
+
+a {
+	color: #629c39;
 }
 
 /*** Project Info Modals ***/
@@ -97,6 +112,14 @@ body {
 	color: #fff;
 	background: #5d3204;
 	text-decoration: none;
+}
+
+.modal img {
+	border: 1px solid #40185b;
+}
+
+.modal-description {
+	font-size: 1.2em;
 }
 
 /*** Debugging Code ***/
