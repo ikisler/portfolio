@@ -30,7 +30,7 @@ header {
 }
 
 .headshot {
-	max-width: 120px;
+	max-width: 145px;
 	height: auto;
 }
 
@@ -86,6 +86,18 @@ p {
 
 a {
 	color: #629c39;
+}
+
+a:hover {
+	color: #5d3204;	
+}
+
+/*** Footer ***/
+.footer {
+	color: #5d3204;
+	text-align: right;
+	margin: 20px auto;
+	border-top: 2px solid #629c39;
 }
 
 /*** Project Info Modals ***/
