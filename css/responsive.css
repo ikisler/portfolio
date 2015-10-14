@@ -1,13 +1,18 @@
-
+/*
 @media screen and (max-width: 1000px) {
 	.title-featured {
 		text-align: center;
 	}
 }
+*/
 
 @media screen and (max-width: 992px) {
 	.featured img {
 		margin: 0 auto;
+	}
+
+	.mobile-project-img {
+		margin: 0;
 	}
 }
 

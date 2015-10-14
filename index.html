@@ -9,6 +9,7 @@
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/picturefill.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
     <title>Isabeau Kisler, Front-end Web Developer</title>
   </head>
@@ -26,19 +27,29 @@
           <h2 class="title-subtitle">Front-end Web Dev</h2>
 
           <!-- Social Media Buttons -->
-          <a href="https://www.linkedin.com/pub/isabeau-kisler/64/647/308" target="_blank"><span class="fontawesome-linkedin-sign"></span></a>
-          <a href="https://www.facebook.com/profile.php?id=100008663403077" target="_blank"><span class="fontawesome-facebook-sign"></span></a>
-          <a href="https://github.com/ikisler" target="_blank"><span class="fontawesome-github-sign"></span></a>
+          <a href="https://www.linkedin.com/pub/isabeau-kisler/64/647/308" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100008663403077" target="_blank"><i class="fa fa-facebook-square"></i></a>
+          <a href="https://github.com/ikisler" target="_blank"><i class="fa fa-github-square"></i></a>
 
         </div>
       </header>
 
       <!-- Navigation -->
+      <div class="row">
+        <div class="col-md-12">
+          <ul>
+            <li><h2><a href="#featured">Featured Work</a></h2></li>
+            <li><h2><a href="#about">About</a></h2></li>
+            <li><h2><a href="#contact">Contact</a></h2></li>
+          </ul>
+        </div>
+      </div>
 
       <!-- Body Content -->
       <div class="row">
         <!-- Hero Image -->
         <div class="col-md-12 hero">
+          <!--
           <div class="overlay">
             <ul>
               <li>HTML5</li>
@@ -48,6 +59,7 @@
               <li>Responsive Design</li>
             </ul>
           </div>
+        -->
           <picture>
             <source media="(min-width:900px)" srcset="images/peaches_large_1x.jpg 1x, images/peaches_large_2x.jpg 2x">
             <source media="(min-width:600px)" srcset="images/peaches_med.jpg">
@@ -60,7 +72,7 @@
       <!-- Featured Work -->
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title-featured">Featured Work &#127807;</h2>
+          <a name="featured" class="nohover"><h2 class="title-featured">Featured Work &#127807;</h2></a>
         </div>
       </div>
       
@@ -72,19 +84,22 @@
         </div>
       </div>
       <div class="row featured">
-        <div class="col-md-4">
-          <img class="img-responsive mobile-project-img" src="images/neighborhoodMapMobileScreenshot01.jpg" style="max-height: 356px; margin: auto;">
-        </div>
-        <div class="col-md-8">
+        <div class="col-sm-9">
           <picture>
             <source media="(min-width:992px)" srcset="images/neighborhoodMapScreenshot720x350.jpg">
             <img class="img-responsive" src="images/neighborhoodMapScreenshot400x195.jpg" alt="Neighborhood Map screenshot">
           </picture>
         </div>
+        <div class="col-sm-3">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/neighborhoodMapMobileScreenshot218x350.jpg">
+            <img class="img-responsive mobile-project-img" src="images/neighborhoodMapMobileScreenshot121x195.jpg" alt="Neighborhood Map screenshot">
+          </picture>
+        </div>
       </div>
       <div class="row featured">
         <div class="col-md-12">
-          <p style="text-align: left; padding-bottom: 20px;">Shows a searchable list of locations of interest in the San Jose, CA area.  Project created for Udacity's Front-End Nano-Degree program using Knockout.js, jQuery, Google Maps API and the Wikipedia API.</p>
+          <p class="description">Shows a searchable list of locations of interest in the San Jose, CA area.  Project created for Udacity's Front-End Nano-Degree program using Knockout.js, jQuery, Google Maps API and the Wikipedia API.</p>
         </div>
       </div>
       <div class="row"><div class="col-md-12 footer"></div></div>
@@ -97,19 +112,22 @@
         </div>
       </div>
       <div class="row featured">
-        <div class="col-md-4">
-          <img class="img-responsive mobile-project-img" src="images/arcadeGameMobileScreenshot01.jpg" style="max-height: 356px; margin: auto;">
-        </div>
-        <div class="col-md-8">
+        <div class="col-sm-9">
             <picture>
               <source media="(min-width:992px)" srcset="images/arcadeGameScreenshot720x350.jpg">
               <img class="img-responsive" src="images/arcadeGameScreenshot400x195.jpg" alt="Classic Arcade Game screenshot">
             </picture>
         </div>
+        <div class="col-sm-3">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/arcadeGameMobileScreenshot218x350.jpg">
+            <img class="img-responsive mobile-project-img" src="images/arcadeGameMobileScreenshot121x195.jpg" alt="Classic Arcade Game screenshot">
+          </picture>
+        </div>
       </div>
       <div class="row featured">
         <div class="col-md-12">
-          <p style="text-align: left; padding-bottom: 20px;">A clone of the game Frogger.  Project created for Udacity's Front-End Nano-Degree program using HTML5 Canvas, Javascript, and Udacity's game engine.</p>
+          <p class="description">A clone of the game Frogger.  Project created for Udacity's Front-End Nano-Degree program using HTML5 Canvas, Javascript, and Udacity's game engine.</p>
         </div>
       </div>
       <div class="row"><div class="col-md-12 footer"></div></div>
@@ -122,19 +140,22 @@
         </div>
       </div>
       <div class="row featured">
-        <div class="col-md-4">
-            <img class="img-responsive mobile-project-img" src="images/calorieTrackerMobileScreenshot01.jpg" style="max-height: 356px; margin: auto;">
-          </div>
-        <div class="col-md-8">
+        <div class="col-sm-9">
             <picture>
               <source media="(min-width:992px)" srcset="images/calorieTrackerScreenshot720x350.jpg">
               <img class="img-responsive" src="images/calorieTrackerScreenshot400x195.jpg" alt="Calorie Tracker screenshot">
             </picture>
         </div>
+        <div class="col-sm-3">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/calorieTrackerMobileScreenshot218x350.jpg">
+            <img class="img-responsive mobile-project-img" src="images/calorieTrackerMobileScreenshot121x195.jpg" alt="Calorie Tracker screenshot">
+          </picture>
+        </div>
       </div>
       <div class="row featured">
         <div class="col-md-12">
-          <p style="text-align: left; padding-bottom: 20px;">Application allows user to create a list of food items, tracking total calories.  Project created for Udacity's Front-End Nano-Degree using Backbone.js, jQuery, and Nutritionix API.</p>
+          <p class="description">Application allows user to create a list of food items, tracking total calories.  Project created for Udacity's Front-End Nano-Degree using Backbone.js, jQuery, and Nutritionix API.</p>
         </div>
       </div>
       <div class="row"><div class="col-md-12 footer"></div></div>
@@ -147,19 +168,23 @@
         </div>
       </div>
       <div class="row featured">
-        <div class="col-md-4">
-            <img class="img-responsive mobile-project-img" src="images/newResumeMobileScreenshot01.jpg" style="max-height: 356px; margin: auto;">
-          </div>
-        <div class="col-md-8">
-            <picture>
-              <source media="(min-width:992px)" srcset="images/newResumeScreenshot720x350.jpg">
-              <img class="img-responsive" src="images/newResumeScreenshot400x195.jpg" alt="Interactive Resume screenshot">
-            </picture>
+        
+        <div class="col-sm-9">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/newResumeScreenshot720x350.jpg">
+            <img class="img-responsive" src="images/newResumeScreenshot400x195.jpg" alt="Interactive Resume screenshot">
+          </picture>
+        </div>
+        <div class="col-sm-3">
+          <picture>
+            <source media="(min-width:992px)" srcset="images/newResumeMobileScreenshot218x350.jpg">
+            <img class="img-responsive mobile-project-img" src="images/newResumeMobileScreenshot121x195.jpg" alt="Interactive Resume screenshot">
+          </picture>
         </div>
       </div>
       <div class="row featured">
         <div class="col-md-12">
-          <p style="text-align: left; padding-bottom: 20px;">Resume project created for Udacity's Front-End Nano-Degree using jQuery.</p>
+          <p class="description">Resume project created for Udacity's Front-End Nano-Degree using jQuery.</p>
         </div>
       </div>
       <div class="row"><div class="col-md-12 footer"></div></div>
@@ -167,15 +192,81 @@
       <!-- About -->
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title-featured">About &#127807;</h2>
+          <a name="about" class="nohover"><h2 class="title-featured">About &#127807;</h2></a>
         </div>
       </div>
-
       <div class="row featured">
         <div class="col-md-12">
-          <p style="text-align: left; padding-bottom: 20px;">Isabeau wrote her first lines of HTML and JavaScript at the age of thirteen, and hasn't stopped since.  While she's spent time doing other things, including completing a business degree and working in education, coding for the web has always been with her.  Isabeau is a recent graduate of Udacity's Front-End Nano Degree program, where she sharpened and expanded her skills, finishing the nine-month program on only five months.  Her entrepreneur spirit and interest in the world has led her to self-publish booklets, operate a personal blog, and run a successful eBay business.</p>
+          <p class="description">Isabeau wrote her first lines of HTML and JavaScript at the age of thirteen, and hasn't stopped since.  While she's spent time doing other things, including completing a business degree and working in education, coding for the web has always been with her.  Isabeau is a recent graduate of Udacity's Front-End Nano Degree program, where she sharpened and expanded her skills, finishing the nine-month program on only five months.  Her entrepreneur spirit and interest in the world has led her to self-publish booklets, operate a personal blog, and run a successful eBay business.</p>
         </div>
       </div>
+      <div class="row"><div class="col-md-12 footer"></div></div>
+
+      <!-- Contact -->
+      <div class="row">
+        <div class="col-md-12">
+          <a name="contact" class="nohover"><h2 class="title-featured">Contact &#127807;</h2></a>
+        </div>
+      </div>
+      <!-- Social Media Buttons -->
+      <div class="row">
+        <div class="col-sm-3" style="text-align:center;">
+          <a style="font-size: 2em;" href="https://www.linkedin.com/pub/isabeau-kisler/64/647/308" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          <p>
+            Connect with me on LinkedIn
+          </p>
+        </div>
+        <div class="col-sm-3" style="text-align:center;">
+          <a style="font-size: 2em;" href="https://www.facebook.com/profile.php?id=100008663403077" target="_blank"><i class="fa fa-facebook-square"></i></a>
+          <p>
+            Message me on Facebook
+          </p>
+        </div>
+        <div class="col-sm-3" style="text-align:center;">
+          <a style="font-size: 2em;" href="https://github.com/ikisler" target="_blank"><i class="fa fa-github-square"></i></a>
+          <p>
+            Check out my GitHub
+          </p>
+        </div>
+        <div class="col-sm-3" style="text-align:center;">
+          <a style="font-size: 2em;" href="mailto:ikisler@csumb.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+          <p>
+          ikisler@csumb.edu
+          </p>
+        </div>
+      </div>
+      <div class="row"><div class="col-md-12 footer"></div></div>
+
+<!-- Scroll to top button and script -->
+<a href="#" class="scrollToTop"><img class="img-responsive" src="images/upArrow.png" alt="Scroll to top"></a>
+<script>
+// Scroll to top button
+$(document).ready(function(){
+  
+  //Check to see if the window is top if not then display button
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+      $('.scrollToTop').fadeIn();
+    } else {
+      $('.scrollToTop').fadeOut();
+    }
+  });
+  
+  //Click event to scroll to top
+  $('.scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+  });
+  
+});
+</script>
+
+
+
+
+
+
+
 
       <!-- Old -->
       <div class="row featured">
