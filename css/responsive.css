@@ -10,13 +10,15 @@
 	.featured img {
 		margin: 0 auto;
 	}
+}
 
-	.mobile-project-img {
-		margin: 0;
+@media screen and (max-width: 768px) {
+	 .featured img {
+		margin-bottom: 20px;
 	}
 }
 
-@media screen and (max-width: 600px) {	
+@media screen and (max-width: 600px) {
 	.headshot-container {
 		width: 100%;
 	}
@@ -36,6 +38,10 @@
 
 	.title-subtitle {
 		font-size: 1.5em;
+	}
+
+	.navigation {
+		font-size: 1.6em;
 	}
 
 }
