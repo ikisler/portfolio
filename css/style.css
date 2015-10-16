@@ -9,8 +9,14 @@
 }
 
 body {
-	background-color: #bbe39e;
+	//background-color: #bbe39e;
+	background-color: #eee;
 	font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+	background-color: #bbe39e;
+	box-shadow: 5px 5px 10px #aaa, -5px 5px 10px #aaa;
 }
 
 /*** Scroll to top button ***/
@@ -20,7 +26,7 @@ body {
 	padding: 10px; 
 	position: fixed;
 	top: 75px;
-	right: 40px;
+	right: 10px;
 	display: none;
 }
 
