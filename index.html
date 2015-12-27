@@ -55,7 +55,7 @@
 			</header>
 
 			<!-- Navigation -->
-			<div class="row">
+			<nav class="row">
 				<div class="col-md-12">
 					<ul>
 						<li><h2 class="navigation"><a href="#featured">Featured Work</a></h2></li>
@@ -63,223 +63,231 @@
 						<li><h2 class="navigation"><a href="#contact">Contact</a></h2></li>
 					</ul>
 				</div>
-			</div>
+			</nav>
 
 			<!-- Body Content -->
-			<div class="row">
-			<!-- Hero Image -->
-				<div class="col-md-12 hero">
-					<!--	Unused feature.
-					<div class="overlay">
-						<ul>
-							<li>HTML5</li>
-							<li>CSS3</li>
-							<li>JavaScript</li>
-							<li>Optimization</li>
-							<li>Responsive Design</li>
-						</ul>
+			<main>
+				<div class="row">
+				<!-- Hero Image -->
+					<div class="col-md-12 hero">
+						<!--	Unused feature.
+						<div class="overlay">
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JavaScript</li>
+								<li>Optimization</li>
+								<li>Responsive Design</li>
+							</ul>
+						</div>
+						-->
+						<picture>
+							<source media="(min-width:900px)" srcset="images/peaches_large_1x.jpg 1x, images/peaches_large_2x.jpg 2x">
+							<source media="(min-width:600px)" srcset="images/peaches_med.jpg">
+							<img class="img-responsive hero-img" src="images/peaches_small.jpg" alt="Image of peaches">
+						</picture>
+						<a href="mailto:ikisler@csumb.edu" target="_blank"><div class="contact-button">Contact Me ▶</div></a>
 					</div>
-					-->
-					<picture>
-						<source media="(min-width:900px)" srcset="images/peaches_large_1x.jpg 1x, images/peaches_large_2x.jpg 2x">
-						<source media="(min-width:600px)" srcset="images/peaches_med.jpg">
-						<img class="img-responsive hero-img" src="images/peaches_small.jpg" alt="Image of peaches">
-					</picture>
-					<a href="mailto:ikisler@csumb.edu" target="_blank"><div class="contact-button">Contact Me ▶</div></a>
 				</div>
-			</div>
 
-			<!-- Featured Work -->
-			<div class="row">
-				<div class="col-md-12">
-					<a name="featured" class="nohover"><h2 class="title-featured">Featured Work &#127807;</h2></a>
+				<!-- Featured Work -->
+				<div class="row">
+					<div class="col-md-12">
+						<a name="featured" class="nohover"><h2 class="title-featured">Featured Work &#127807;</h2></a>
+					</div>
 				</div>
-			</div>
-			
-			<!-- Neighborhood Map Project -->
-			<div class="row featured">
-				<div class="col-md-12">
-					<h3><a href="http://ikisler.github.io/neighborhood-map/" target="_blank">Neighborhood Map</a></h3>
-					<p><a href="https://github.com/ikisler/neighborhood-map" target="_blank">Github Repo</a></p>
+				
+				<!-- Neighborhood Map Project -->
+				<div class="row featured">
+					<div class="col-md-12">
+						<h3><a href="http://ikisler.github.io/neighborhood-map/" target="_blank">Neighborhood Map</a></h3>
+						<p><a href="https://github.com/ikisler/neighborhood-map" target="_blank">Github Repo</a></p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-sm-9">
-					<a href="http://ikisler.github.io/neighborhood-map/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/neighborhoodMapScreenshot720x350.jpg">
-							<img class="img-responsive" src="images/neighborhoodMapScreenshot400x195.jpg" alt="Neighborhood Map screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-sm-9">
+						<a href="http://ikisler.github.io/neighborhood-map/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/neighborhoodMapScreenshot720x350.jpg">
+								<img class="img-responsive" src="images/neighborhoodMapScreenshot400x195.jpg" alt="Neighborhood Map screenshot">
+							</picture>
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href="http://ikisler.github.io/neighborhood-map/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/neighborhoodMapMobileScreenshot218x350.jpg">
+								<img class="img-responsive mobile-project-img" src="images/neighborhoodMapMobileScreenshot121x195.jpg" alt="Neighborhood Map screenshot">
+							</picture>
+						</a>
+					</div>
 				</div>
-				<div class="col-sm-3">
-					<a href="http://ikisler.github.io/neighborhood-map/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/neighborhoodMapMobileScreenshot218x350.jpg">
-							<img class="img-responsive mobile-project-img" src="images/neighborhoodMapMobileScreenshot121x195.jpg" alt="Neighborhood Map screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-md-12">
+						<p class="description">Shows a searchable list of locations of interest in the San Jose, CA area.  Project created for Udacity's Front-End Nano-Degree program using Knockout.js, jQuery, Google Maps API and the Wikipedia API.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-md-12">
-					<p class="description">Shows a searchable list of locations of interest in the San Jose, CA area.  Project created for Udacity's Front-End Nano-Degree program using Knockout.js, jQuery, Google Maps API and the Wikipedia API.</p>
-				</div>
-			</div>
-			<div class="row"><div class="col-md-12 footer"></div></div>
+				<div class="row"><div class="col-md-12 footer"></div></div>
 
-			<!-- Classic Arcade Game Project -->
-			<div class="row featured">
-				<div class="col-md-12">
-					<h3><a href="http://ikisler.github.io/frogger-clone-arcade-game/" target="_blank">Classic Arcade Game</a></h3>
-					<p><a href="https://github.com/ikisler/frogger-clone-arcade-game" target="_blank">Github Repo</a></p>
+				<!-- Classic Arcade Game Project -->
+				<div class="row featured">
+					<div class="col-md-12">
+						<h3><a href="http://ikisler.github.io/frogger-clone-arcade-game/" target="_blank">Classic Arcade Game</a></h3>
+						<p><a href="https://github.com/ikisler/frogger-clone-arcade-game" target="_blank">Github Repo</a></p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-sm-9">
-					<a href="http://ikisler.github.io/frogger-clone-arcade-game/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/arcadeGameScreenshot720x350.jpg">
-							<img class="img-responsive" src="images/arcadeGameScreenshot400x195.jpg" alt="Classic Arcade Game screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-sm-9">
+						<a href="http://ikisler.github.io/frogger-clone-arcade-game/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/arcadeGameScreenshot720x350.jpg">
+								<img class="img-responsive" src="images/arcadeGameScreenshot400x195.jpg" alt="Classic Arcade Game screenshot">
+							</picture>
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href="http://ikisler.github.io/frogger-clone-arcade-game/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/arcadeGameMobileScreenshot218x350.jpg">
+								<img class="img-responsive mobile-project-img" src="images/arcadeGameMobileScreenshot121x195.jpg" alt="Classic Arcade Game screenshot">
+							</picture>
+						</a>
+					</div>
 				</div>
-				<div class="col-sm-3">
-					<a href="http://ikisler.github.io/frogger-clone-arcade-game/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/arcadeGameMobileScreenshot218x350.jpg">
-							<img class="img-responsive mobile-project-img" src="images/arcadeGameMobileScreenshot121x195.jpg" alt="Classic Arcade Game screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-md-12">
+						<p class="description">A clone of the game Frogger.  Project created for Udacity's Front-End Nano-Degree program using HTML5 Canvas, Javascript, and Udacity's game engine.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-md-12">
-					<p class="description">A clone of the game Frogger.  Project created for Udacity's Front-End Nano-Degree program using HTML5 Canvas, Javascript, and Udacity's game engine.</p>
-				</div>
-			</div>
-			<div class="row"><div class="col-md-12 footer"></div></div>
+				<div class="row"><div class="col-md-12 footer"></div></div>
 
-			<!-- Calorie Tracker -->
-			<div class="row featured">
-				<div class="col-md-12">
-					<h3><a href="http://ikisler.github.io/healthtracker/" target="_blank">Calorie Tracker</a></h3>
-					<p><a href="https://github.com/ikisler/healthtracker" target="_blank">Github Repo</a></p>
+				<!-- Calorie Tracker -->
+				<div class="row featured">
+					<div class="col-md-12">
+						<h3><a href="http://ikisler.github.io/healthtracker/" target="_blank">Calorie Tracker</a></h3>
+						<p><a href="https://github.com/ikisler/healthtracker" target="_blank">Github Repo</a></p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-sm-9">
-					<a href="http://ikisler.github.io/healthtracker/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/calorieTrackerScreenshot720x350.jpg">
-							<img class="img-responsive" src="images/calorieTrackerScreenshot400x195.jpg" alt="Calorie Tracker screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-sm-9">
+						<a href="http://ikisler.github.io/healthtracker/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/calorieTrackerScreenshot720x350.jpg">
+								<img class="img-responsive" src="images/calorieTrackerScreenshot400x195.jpg" alt="Calorie Tracker screenshot">
+							</picture>
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href="http://ikisler.github.io/healthtracker/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/calorieTrackerMobileScreenshot218x350.jpg">
+								<img class="img-responsive mobile-project-img" src="images/calorieTrackerMobileScreenshot121x195.jpg" alt="Calorie Tracker screenshot">
+							</picture>
+						</a>
+					</div>
 				</div>
-				<div class="col-sm-3">
-					<a href="http://ikisler.github.io/healthtracker/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/calorieTrackerMobileScreenshot218x350.jpg">
-							<img class="img-responsive mobile-project-img" src="images/calorieTrackerMobileScreenshot121x195.jpg" alt="Calorie Tracker screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-md-12">
+						<p class="description">Application allows user to create a list of food items, tracking total calories.  Project created for Udacity's Front-End Nano-Degree using Backbone.js, jQuery, and Nutritionix API.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-md-12">
-					<p class="description">Application allows user to create a list of food items, tracking total calories.  Project created for Udacity's Front-End Nano-Degree using Backbone.js, jQuery, and Nutritionix API.</p>
-				</div>
-			</div>
-			<div class="row"><div class="col-md-12 footer"></div></div>
+				<div class="row"><div class="col-md-12 footer"></div></div>
 
-			<!-- Resume Project -->
-			<div class="row featured">
-				<div class="col-md-12">
-					<h3><a href="http://ikisler.github.io/dynamic-resume/" target="_blank">Dynamic Resume</a></h3>
-					<p><a href="https://github.com/ikisler/dynamic-resume" target="_blank">Github Repo</a></p>
+				<!-- Resume Project -->
+				<div class="row featured">
+					<div class="col-md-12">
+						<h3><a href="http://ikisler.github.io/dynamic-resume/" target="_blank">Dynamic Resume</a></h3>
+						<p><a href="https://github.com/ikisler/dynamic-resume" target="_blank">Github Repo</a></p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-sm-9">
-					<a href="http://ikisler.github.io/dynamic-resume/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/newResumeScreenshot720x350.jpg">
-							<img class="img-responsive" src="images/newResumeScreenshot400x195.jpg" alt="Interactive Resume screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-sm-9">
+						<a href="http://ikisler.github.io/dynamic-resume/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/newResumeScreenshot720x350.jpg">
+								<img class="img-responsive" src="images/newResumeScreenshot400x195.jpg" alt="Interactive Resume screenshot">
+							</picture>
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href="http://ikisler.github.io/dynamic-resume/" target="_blank">
+							<picture>
+								<source media="(min-width:992px)" srcset="images/newResumeMobileScreenshot218x350.jpg">
+								<img class="img-responsive mobile-project-img" src="images/newResumeMobileScreenshot121x195.jpg" alt="Interactive Resume screenshot">
+							</picture>
+						</a>
+					</div>
 				</div>
-				<div class="col-sm-3">
-					<a href="http://ikisler.github.io/dynamic-resume/" target="_blank">
-						<picture>
-							<source media="(min-width:992px)" srcset="images/newResumeMobileScreenshot218x350.jpg">
-							<img class="img-responsive mobile-project-img" src="images/newResumeMobileScreenshot121x195.jpg" alt="Interactive Resume screenshot">
-						</picture>
-					</a>
+				<div class="row featured">
+					<div class="col-md-12">
+						<p class="description">Resume project created for Udacity's Front-End Nano-Degree using jQuery.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-md-12">
-					<p class="description">Resume project created for Udacity's Front-End Nano-Degree using jQuery.</p>
-				</div>
-			</div>
-			<div class="row"><div class="col-md-12 footer"></div></div>
+				<div class="row"><div class="col-md-12 footer"></div></div>
 
-			<!-- About -->
-			<div class="row">
-				<div class="col-md-12">
-					<a name="about" class="nohover"><h2 class="title-featured">About &#127807;</h2></a>
+				<!-- About -->
+				<div class="row">
+					<div class="col-md-12">
+						<a name="about" class="nohover"><h2 class="title-featured">About &#127807;</h2></a>
+					</div>
 				</div>
-			</div>
-			<div class="row featured">
-				<div class="col-md-12">
-					<p class="description">Isabeau wrote her first lines of HTML and JavaScript at the age of thirteen, and hasn't stopped since.  While she's spent time doing other things, including completing a business degree and working in education, coding for the web has always been with her.  Isabeau is a recent graduate of Udacity's Front-End Nano Degree program, where she sharpened and expanded her skills, finishing the nine-month program in only five months.  Her entrepreneur spirit and interest in the world has led her to self-publish booklets, operate a personal blog, and run a successful eBay business.</p>
-				</div>
-			</div>
-			<div class="row"><div class="col-md-12 footer"></div></div>
+				<div class="row featured">
+					<div class="col-md-12 description">
+						<p>I wrote my first lines of code at the age of thirteen, and haven't really stopped since.</p>
 
-			<!-- Contact -->
-			<div class="row">
-				<div class="col-md-12">
-					<a name="contact" class="nohover"><h2 class="title-featured">Contact &#127807;</h2></a>
+						<p>While I've done a lot of other things since then, including working in education, and completing a degree in business administration, coding for the web has always been with me.</p>
+
+						<p>One thing that has intrigued me about the Internet is its sea of opportunities; throughout my life, I've taken advantage of this to learn about the world, and sometimes to pay the bills. In the past, I've self-published booklets on Amazon, operated an eBay business, and wrote for eHow; currently I publish a personal blog.</p>
+
+						<p>An opportunity that I couldn't say no to was Udacity's Front-End Web Developer Nanodegree program; getting into this program was like scratching an itch that I'd had for years. Its online, semi-self-paced format suited me perfectly, and the fact that I received real reviews and feedback on my code was incredibly valuable. Through this program, I widened and honed my skills, completing the nine-month program in only five months.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3" style="text-align:center;">
-					<a style="font-size: 2em;" href="https://www.linkedin.com/pub/isabeau-kisler/64/647/308" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-					<p>
-						Connect with me on LinkedIn
-					</p>
+				<div class="row"><div class="col-md-12 footer"></div></div>
+
+				<!-- Contact -->
+				<div class="row">
+					<div class="col-md-12">
+						<a name="contact" class="nohover"><h2 class="title-featured">Contact &#127807;</h2></a>
+					</div>
 				</div>
-				<div class="col-sm-3" style="text-align:center;">
-					<a style="font-size: 2em;" href="https://www.facebook.com/profile.php?id=100008663403077" target="_blank"><i class="fa fa-facebook-square"></i></a>
-					<p>
-						Message me on Facebook
-					</p>
+				<div class="row">
+					<div class="col-sm-3" style="text-align:center;">
+						<a style="font-size: 2em;" href="https://www.linkedin.com/pub/isabeau-kisler/64/647/308" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+						<p>
+							Connect with me on LinkedIn
+						</p>
+					</div>
+					<div class="col-sm-3" style="text-align:center;">
+						<a style="font-size: 2em;" href="https://www.facebook.com/profile.php?id=100008663403077" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<p>
+							Message me on Facebook
+						</p>
+					</div>
+					<div class="col-sm-3" style="text-align:center;">
+						<a style="font-size: 2em;" href="https://github.com/ikisler" target="_blank"><i class="fa fa-github-square"></i></a>
+						<p>
+							Check out my GitHub
+						</p>
+					</div>
+					<div class="col-sm-3" style="text-align:center;">
+						<a style="font-size: 2em;" href="mailto:ikisler@csumb.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+						<p>
+							ikisler@csumb.edu
+						</p>
+					</div>
 				</div>
-				<div class="col-sm-3" style="text-align:center;">
-					<a style="font-size: 2em;" href="https://github.com/ikisler" target="_blank"><i class="fa fa-github-square"></i></a>
-					<p>
-						Check out my GitHub
-					</p>
-				</div>
-				<div class="col-sm-3" style="text-align:center;">
-					<a style="font-size: 2em;" href="mailto:ikisler@csumb.edu" target="_blank"><i class="fa fa-envelope"></i></a>
-					<p>
-						ikisler@csumb.edu
-					</p>
-				</div>
-			</div>
-			
+			</main>
+
 			<!-- Footer -->
-			<div class="row">
+			<footer class="row">
 				<div class="col-md-12 footer">
 					Copyright 2015
 				</div>
-			</div>
+			</footer>
 		</div>
 
 		<!-- Scroll to top button and script -->
-		<a href="#" class="scrollToTop"><img class="img-responsive" src="images/upArrow.png" alt="Scroll to top"></a>
+		<a href="#" class="scrollToTop"><img class="img-responsive" src="images/upArrow.png" alt="Top"></a>
 		<script>
 		// Scroll to top button
 		$(document).ready(function(){
