@@ -13,9 +13,13 @@ body {
 	font-family: "Noto Sans", sans-serif;
 }
 
-.container {
+.container-fluid {
 	background-color: #bbe39e;
 	box-shadow: 5px 5px 10px #aaa, -5px 5px 10px #aaa;
+}
+
+.row {
+	padding: 0 30px;
 }
 
 /*** Scroll to top button ***/
@@ -41,7 +45,7 @@ body {
 /*** Header Section ***/
 header {
 	color: #5d3204;
-	padding: 1em 0;
+	padding: 14px 30px !important;
 	border-bottom: 2px solid #629c39;
 }
 
