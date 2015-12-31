@@ -192,11 +192,15 @@ p {
 }
 
 a {
-	color: #629c39;
+	color: #5d3204;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 }
 
 a:hover {
-	color: #5d3204;	
+	color: #629c39;	
 }
 
 .tag-item {
