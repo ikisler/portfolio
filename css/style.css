@@ -123,8 +123,9 @@ li {
 
 /*** Skills ***/
 .skill-section {
-	margin-bottom: 20px;
+	margin: 0 auto 20px auto;
 	min-height: 160px;
+	max-width: 450px;
 }
 
 .skills-header {
@@ -171,6 +172,9 @@ h3 {
 	border-bottom-width: 30px;
 	border-radius: 15px;
 	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 5px;
 }
 
 .mobile-project-img {
