@@ -60,6 +60,7 @@
 					<ul>
 						<li><h2 class="navigation"><a href="#skills">Skills</a></h2></li>
 						<li><h2 class="navigation"><a href="#featured">Featured Work</a></h2></li>
+						<li><h2 class="navigation"><a href="#doodles">Doodles</a></h2></li>
 						<li><h2 class="navigation"><a href="#about">About</a></h2></li>
 						<li><h2 class="navigation"><a href="#contact">Contact</a></h2></li>
 					</ul>
@@ -95,7 +96,7 @@
 				<!-- Skills -->
 				<div class="row">
 					<div class="col-md-12">
-						<a name="skills" class="nohover"><h2 class="title-featured">Skills &#127807;</h2></a>
+						<a name="skills" class="nohover"><h2 class="title-featured">Skills</h2> <i class="fa-heading fa fa-gear"></i></a>
 					</div>
 				</div>
 
@@ -133,11 +134,12 @@
 						</ul>
 					</div>
 				</div>
+				<div class="row"><div class="col-md-12 footer"></div></div>
 
 				<!-- Featured Work -->
 				<div class="row">
 					<div class="col-md-12">
-						<a name="featured" class="nohover"><h2 class="title-featured">Featured Work &#127807;</h2></a>
+						<a name="featured" class="nohover"><h2 class="title-featured">Featured Work  </h2> <i class="fa-heading fa fa-star"></i></a>
 					</div>
 				</div>
 				
@@ -319,7 +321,7 @@
 				<!-- Doodles -->
 				<div class="row">
 					<div class="col-md-12">
-						<a name="about" class="nohover"><h2 class="title-featured">Doodles &#127807;</h2></a>
+						<a name="doodles" class="nohover"><h2 class="title-featured">Doodles </h2> <i class="fa-heading fa fa-pencil"></i></a>
 					</div>
 				</div>
 
@@ -376,7 +378,7 @@
 				<!-- About -->
 				<div class="row">
 					<div class="col-md-12">
-						<a name="about" class="nohover"><h2 class="title-featured">About &#127807;</h2></a>
+						<a name="about" class="nohover"><h2 class="title-featured">About </h2> <i class="fa-heading fa fa-user"></i></a>
 					</div>
 				</div>
 				<div class="row featured">
@@ -396,7 +398,7 @@
 				<!-- Contact -->
 				<div class="row">
 					<div class="col-md-12">
-						<a name="contact" class="nohover"><h2 class="title-featured">Contact &#127807;</h2></a>
+						<a name="contact" class="nohover"><h2 class="title-featured">Contact </h2> <i class="fa-heading fa fa-phone"></i></a>
 					</div>
 				</div>
 				<div class="row">
@@ -430,7 +432,6 @@
 			<!-- Footer -->
 			<footer class="row">
 				<div class="col-md-12 footer">
-					Copyright 2015
 				</div>
 			</footer>
 		</div>
@@ -443,11 +444,11 @@
 			
 			//Check to see if the window is top if not then display button
 			$(window).scroll(function(){
-			if ($(this).scrollTop() > 100) {
-				$('.scrollToTop').fadeIn();
-			} else {
-				$('.scrollToTop').fadeOut();
-			}
+				if ($(this).scrollTop() > 100) {
+					$('.scrollToTop').fadeIn();
+				} else {
+					$('.scrollToTop').fadeOut();
+				}
 			});
 			
 			//Click event to scroll to top
